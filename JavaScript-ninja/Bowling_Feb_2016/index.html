@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td {
+        text-align: center;
+        height: 15px;
+    }
+    .header td, .score td {
+        width: 40px;
+    }
+    .throws td {
+        width: 20px;
+    }
+    .header td[colspan="3"], .score td[colspan="3"] {
+        width: 60px;
+    }
+        </style>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="lanes">
+        <select id="mySelect"></select>
+        <button />
+    </div>
+    <table>
+        <tbody>
+            <tr class='header'>
+                <td colSpan="2">1</td>
+                <td colSpan="2">2</td>
+                <td colSpan="2">3</td>
+                <td colSpan="2">4</td>
+                <td colSpan="2">5</td>
+                <td colSpan="2">6</td>
+                <td colSpan="2">7</td>
+                <td colSpan="2">8</td>
+                <td colSpan="2">9</td>
+                <td colSpan="3">10</td>    
+            </tr>
+            <tr class='throws'></tr>
+            <tr class='score'></tr>
+        </tbody>
+    </table>
+</body>
+</html>
